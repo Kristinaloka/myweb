@@ -33,40 +33,42 @@
             margin: 0 auto;
             padding: 0 20px;
         }
+/* Updated Profile Picture Styles */
+.profile-picture {
+    width: 30%; /* Set width relative to the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; /* Set a max width for larger screens */
+    border-radius: 8px; /* Changed to a rectangular shape */
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
 
-   .profile-picture {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid #fff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
-        }
+/* Updated Header Styles */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--header-bg) no-repeat center center/cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
 
-        /* Updated Header Styles */
-        header {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--header-bg) no-repeat center center/cover;
-            min-height: 100vh;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 2rem;
-        }
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
 
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-        }
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
 
-        header p {
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-        }
 
         /* Flowing Header Styles */
         .flowing-header {
